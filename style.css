@@ -1,0 +1,454 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  color: #080c16;
+}
+ul,
+ol {
+  list-style-position: inside;
+}
+html {
+  font-size: 14px;
+}
+.plans,
+.faq-content,
+.bottom-content {
+  box-sizing: border-box;
+}
+.clear-fix {
+  clear: both;
+}
+/* ---------------------------------------------------------- */
+/* navigation bar */
+nav {
+  width: 100%;
+  background-color: #eafaf1;
+}
+.nav-content {
+  width: 70%;
+  margin: auto;
+  padding: 15px 0;
+}
+.nav-logo {
+  float: left;
+  margin-top: 5px;
+}
+.nav-sections {
+  float: right;
+  text-align: center;
+}
+nav a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #00ab6a;
+  margin: 0 10px;
+}
+nav button {
+  background-color: #eafaf1;
+  border: solid 2px #00ab6a;
+  color: #00ab6a;
+  padding: 5px 10px;
+  text-align: center;
+}
+/* ---------------------------------------------------------- */
+
+/* header section */
+.intro {
+  background-color: #eafaf1;
+  text-align: center;
+  padding: 15px 15px 50px;
+}
+h1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  margin: 0 0 15px;
+}
+.intro p {
+  font-size: 1.125rem;
+}
+
+/* ---------------------------------------------------------- */
+
+/* plans place */
+.plans-place {
+  background-color: #eafaf1;
+}
+.plans {
+  width: 70%;
+  margin: auto;
+  padding: 30px 15px 0;
+}
+
+.plan {
+  float: left;
+  box-sizing: border-box;
+}
+
+.plan-one {
+  margin-top: 100px;
+  padding: 15px 20px;
+  width: 31%;
+}
+.plan-one h3 {
+  color: #00ad6a;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.plan-one li {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+.plan-one ul {
+  padding: 0 15px;
+}
+.plan-one p {
+  font-size: 1rem;
+}
+.plan-one a {
+  font-weight: 400;
+}
+.plan-paragraph {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 5px 0;
+}
+.bg-green {
+  background-color: #00ad6a;
+}
+.white-font {
+  color: #fff;
+}
+.plan-two {
+  text-align: center;
+  padding: 0px;
+  border-radius: 8px;
+  border: solid #00ad6a 1px;
+  background-color: #fcfcfc;
+  width: 35%;
+}
+.plan-container {
+  padding: 40px;
+}
+
+.plan-container ul {
+  text-align: left;
+  margin-top: 10px;
+}
+.plan-container li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #080c16;
+}
+.plan-container li::marker {
+  content: "✔ "; /* The checkmark symbol */
+  color: #00ad6a; /* Changes the checkmark to green */
+  font-size: 1.2em; /* Makes the checkmark slightly larger */
+}
+.plan-two h3 {
+  font-size: 3rem;
+  letter-spacing: -1.5px;
+  font-weight: 700;
+  color: #00ad6a;
+}
+.ad {
+  font-size: 1.5rem;
+}
+.gray-font {
+  color: #83858a;
+}
+
+.btn {
+  background-color: #00ad6a;
+  padding: 15px;
+  border: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 15px;
+  color: #464951;
+}
+.plan-three {
+  text-align: center;
+  border: #d6dae5 solid 1px;
+  margin-top: 40px;
+  background-color: #fcfcfc;
+  width: 33%;
+}
+.plan-three header {
+  padding: 15px;
+  font-size: 0.875rem;
+  background-color: #f2f3f3;
+}
+.plan-three h3 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: #00ad6a;
+  letter-spacing: -1.5px;
+}
+.plans .special-btn {
+  width: 100%;
+  background-color: #1fe374;
+  color: #464951;
+  padding: 15px;
+  border: 0px;
+  display: none;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+/* ---------------------------------------------------------- */
+
+/* quote part */
+.quote {
+  background-color: #eafaf1;
+  padding: 80px 0 50px;
+  border-bottom: solid #d6dae5 1px;
+}
+.quote-content {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+.quote p {
+  font-size: 1.5rem;
+  padding: 7px 0;
+}
+.quote .quote-source {
+  color: #00ad6a;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.quote img {
+  margin-bottom: 10px;
+}
+
+/* ---------------------------------------------------------- */
+
+/* FAQ part */
+.faq {
+  background-color: #fcfcfc;
+}
+.faq-label {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #080c16;
+  margin: 30px 0;
+}
+.faq-content {
+  width: 70%;
+  padding: 20px;
+  margin: auto;
+}
+.qa {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  padding: 10px;
+}
+.faq-row {
+  width: 100%;
+}
+.question {
+  font-size: 1.25rem;
+  color: #080c16;
+  font-weight: 700;
+  margin: 10px 0 0;
+}
+.answer {
+  font-size: 1.125rem;
+  color: #83858a;
+  margin-bottom: 10px;
+}
+
+/* ---------------------------------------------------------- */
+
+/* Footer part */
+.bottom {
+  background-color: #080c16;
+  padding: 20px 0;
+}
+.bottom-section {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+.bottom-content {
+  width: 70%;
+  padding: 20px 10px;
+  margin: 20px auto;
+}
+.bottom img {
+  width: 25%;
+  display: block;
+  margin: 0 auto 20px;
+}
+.bottom button {
+  font-size: 1rem;
+  background: linear-gradient(90deg, #00ab6a, #23ea76);
+  color: #080c16;
+}
+.link-sections {
+  box-sizing: border-box;
+  float: left;
+  font-weight: 700;
+  padding: 15px 20px;
+}
+.links {
+  width: 80%;
+  margin: auto;
+}
+
+.link-sections .list-headers {
+  color: #fff;
+  font-weight: 700;
+}
+.link-sections a {
+  color: #1fe374;
+  font-weight: 400;
+  text-decoration: none;
+}
+.link-sections ul {
+  list-style-type: none; /* Removes the dots */
+  font-size: 1.1rem;
+}
+.link-sections li {
+  margin: 10px 0;
+}
+
+/* ---------------------------------------------------------- */
+/* ---------------------------------------------------------- */
+
+/* hover */
+/* navigation bar */
+nav a:hover {
+  color: #080c16;
+}
+
+nav button:hover {
+  box-shadow: -5px 5px;
+  position: relative;
+  top: -2px;
+}
+/* ---------------------------------------------------------- */
+/* plans place */
+.plans .btn:hover {
+  transform: scale(1.1);
+  color: #080c16;
+}
+.plans .special-btn:hover {
+  color: #080c16;
+}
+
+/* ---------------------------------------------------------- */
+/* Footer part */
+.bottom button:hover {
+  box-shadow: -5px 5px #464951;
+  position: relative;
+  top: -2px;
+}
+
+.link-sections a:hover {
+  color: #fff;
+}
+
+/* ---------------------------------------------------------- */
+/* ---------------------------------------------------------- */
+/* Responsive */
+
+/* Large Devices (Laptops/Desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+  .nav-content,
+  .bottom-content,
+  .plans,
+  .quote-content {
+    width: 80%;
+  }
+  .intro {
+    text-align: left;
+  }
+  .plan-one {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .plan-two {
+    width: 100%;
+  }
+  .plan-three {
+    width: 100%;
+  }
+  .plan-two h3,
+  .ad,
+  .plan-three h3 {
+    display: inline-block;
+  }
+  .plan-three .btn,
+  .plan-two .btn {
+    display: none;
+  }
+  .plans .special-btn {
+    display: block;
+  }
+  .plan-container {
+    padding: 20px;
+  }
+  .quote {
+    padding-top: 30px;
+  }
+  .bottom-section {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .bottom-section .links {
+    display: inline-block;
+    width: fit-content;
+    margin: 15px auto;
+    font-size: 1.125rem;
+    text-align: left;
+  }
+  .link-sections {
+    padding: 15px 20px;
+  }
+  .link-sections ul {
+    font-size: 1.5rem;
+    padding: 0 10px;
+  }
+  .bottom-content {
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    width: 100%;
+  }
+}
+
+/* Medium Devices (Tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  .bottom-content,
+  .plans,
+  .quote-content,
+  .faq-content {
+    width: 100%;
+  }
+  .nav-sections {
+    opacity: 0;
+  }
+  nav {
+    background-color: #f2f3f3;
+  }
+  .intro {
+    text-align: left;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .qa{
+    width: 100%;
+  }
+  .bottom button {
+  width: 100%;
+  margin: 5px 0;
+}
+}
+
