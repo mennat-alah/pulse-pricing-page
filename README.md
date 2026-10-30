@@ -9,7 +9,7 @@ This project is a learning exercise based on the Pulse pricing page design provi
 The goal was to recreate the layout and styling from scratch while strengthening my understanding of HTML structure, CSS layouts, positioning, and responsive design.
 
 ## Original Design Reference
-
+- live demo: https://mennat-alah.github.io/pulse-pricing-page/
 - Frontend Practice project: https://www.frontendpractice.com/projects/pulse
 - Original website: [https://pulseapp.com/](https://pulseapp.com/pricing)
 
